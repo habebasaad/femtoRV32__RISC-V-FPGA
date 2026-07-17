@@ -1,0 +1,32 @@
+==========================================
+    RISC-V INSTRUCTION DETAILS
+==========================================
+Total Instructions: 20
+Fixed Initialization: 2 instructions
+Additional Initialization: 3 instructions
+Main Instructions: 15 instructions
+Memory Base Address: 0 to 31 for instructions
+Data Memory Base: 128 (x31 initialized to 128)
+Initialized Registers: x31, x8, x13, x17, x24, x12, x6, x4, x30, x11, x7, x18, x1, x3, x19
+==========================================
+
+Instruction 0: addi x0, x0, 0 | Binary: 00000000000000000000000000010011
+Instruction 1: addi x31, x0, 128 | Binary: 00001000000000000000111110010011
+Instruction 2: addi x8, x0, 1682 | Binary: 01101001001000000000010000010011
+Instruction 3: addi x13, x0, -479 | Binary: 11100010000100000000011010010011
+Instruction 4: addi x17, x0, -224 | Binary: 11110010000000000000100010010011
+Instruction 5: and x24, x31, x8 | Binary: 00000000100011111111110000110011
+Instruction 6: lbu x12, 0(x31) | Binary: 00000000000011111100011000000011
+Instruction 7: sw x12, 0(x31) | Binary: 00000000110011111010000000100011
+Instruction 8: sltu x6, x17, x24 | Binary: 00000001100010001011001100110011
+Instruction 9: xor x4, x12, x17 | Binary: 00000001000101100100001000110011
+Instruction 10: lbu x30, 0(x31) | Binary: 00000000000011111100111100000011
+Instruction 11: ebreak | Binary: 00000000000100000000000001110011
+Instruction 12: sh x6, 0(x31) | Binary: 00000000011011111001000000100011
+Instruction 13: slt x11, x31, x24 | Binary: 00000001100011111010010110110011
+Instruction 14: addi x7, x31, -1726 | Binary: 10010100001011111000001110010011
+Instruction 15: ori x18, x11, 814 | Binary: 00110010111001011110100100010011
+Instruction 16: ori x1, x26, 1050 | Binary: 01000001101011010110000010010011
+Instruction 17: add x3, x20, x28 | Binary: 00000001110010100000000110110011
+Instruction 18: sw x24, 0(x31) | Binary: 00000001100011111010000000100011
+Instruction 19: lh x19, 0(x31) | Binary: 00000000000011111001100110000011

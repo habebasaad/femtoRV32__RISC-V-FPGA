@@ -1,0 +1,12 @@
+// RISC-V Instruction Memory Hex Dump
+// 8 instructions
+// x31 initialized to 128 for memory operations
+
+0x00000013 // addi x0, x0, 0
+0x08000F93 // addi x31, x0, 128
+0x2CB00193 // addi x3, x0, 715
+0x403189B3 // sub x19, x3, x3
+0x71898B13 // addi x22, x19, 1816
+0x0131B1B3 // sltu x3, x3, x19
+0xFD61FBE3 // bgeu x3, x22, -42
+0x0031BAB3 // sltu x21, x3, x3

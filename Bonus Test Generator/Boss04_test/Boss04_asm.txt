@@ -1,0 +1,25 @@
+// RISC-V Assembly Test Program
+// 17 instructions
+// Fixed Initialization: 2 instructions
+// Additional Initialization: 3 instructions
+// Main: 12 instructions
+// Memory base address: 0 to 31
+// Data memory base: 128 (x31)
+
+addi x0, x0, 0
+addi x31, x0, 128
+addi x2, x0, 716
+addi x20, x0, -1966
+addi x27, x0, 487
+slt x30, x2, x31
+jal x30, 212718
+jal x25, 271362
+lh x8, 0(x31)
+sb x8, 0(x31)
+sltu x29, x25, x20
+sltu x7, x25, x29
+xori x17, x29, 373
+sll x25, x17, x27
+or x9, x16, x6
+beq x8, x27, -66
+sll x15, x7, x25

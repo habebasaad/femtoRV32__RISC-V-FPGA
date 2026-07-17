@@ -1,0 +1,37 @@
+BigBoss journal - Habeba Saad
+CSCE 3301 Project 1 - femtoRV32
+Milestone 3
+
+	* All the work was distributed well among me and Habeba since we worked together to achieve our goal in constructing this milestone very well! *
+
+
+Note: For each building operations, there was a mock unit test before combining all the tests together.
+
+November 16, 2025
+-----------------
+ - Creating the pipelined module
+
+November 17, 2025
+-----------------
+ - Testing the pipelined module and fixing the errors
+
+November 18, 2025
+-----------------
+ - Creating the forward detection unit and the flush in the pipelining module
+ - Testing the detection and fixing the errors
+
+November 22, 2025
+-----------------
+ - Generated the test cases used for testing the program
+ - Organizing the tests in a way such that each instruction is distributed into 4 memories (address byte generator)
+ - Distributed the tests into different text files
+ - Preparing tests for the FPGA board
+
+November 23, 2025
+-----------------
+ - Creating the bonus feature for the test generator program
+
+November 24, 2025
+-----------------
+ - Creating the bonus feature for M-extension instructions
+ - Testing the bonus feature for M-extension instructions 

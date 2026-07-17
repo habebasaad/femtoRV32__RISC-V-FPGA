@@ -1,0 +1,35 @@
+BigBoss journal - Doha Nour El-Din
+CSCE 3301 Project 1 - femtoRV32
+Milestone 3
+
+	* All the work was distributed well among me and Habeba since we worked together to achieve our goal in constructing this milestone very well! *
+ 
+Contribution:
+Note: For each building operations, there was a mock unit test before combining all the tests together.
+
+November 17, 2025
+-----------------
+ - Testing the pipelined module and fixing the errors
+
+November 18 2025
+-----------------
+ - Creating the single memory modules
+
+November 19 2025
+-----------------
+ - Creating single memory in pipeline with handling slow clock
+ - Combining the single memory in the pipeline module
+
+November 22, 2025
+-----------------
+ - Testing the generated tests and ensured that each instruction is working well
+
+November 23, 2025
+-----------------
+ - Testing the output result for the random instruction memory resulting from the test generator program
+ - Testing the workflow of the instructions in the test done
+
+November 24, 2025
+-----------------
+ - Testing the output result for the random instruction memory resulting from the test generator program
+ - Double checking the workflow for the whole program

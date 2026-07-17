@@ -1,0 +1,22 @@
+// RISC-V Instruction Memory Hex Dump
+// 18 instructions
+// x31 initialized to 128 for memory operations
+
+0x00000013 // addi x0, x0, 0
+0x08000F93 // addi x31, x0, 128
+0x11100113 // addi x2, x0, 273
+0x8FB00793 // addi x15, x0, -1797
+0x97F00B13 // addi x22, x0, -1665
+0x0CAF5917 // auipc x18, 51957
+0x402B04B3 // sub x9, x22, x2
+0x000FDC83 // lhu x25, 0(x31)
+0x000FDA83 // lhu x21, 0(x31)
+0xA9194093 // xori x1, x18, -1391
+0x01D44833 // xor x16, x8, x29
+0x000FA203 // lw x4, 0(x31)
+0xFF3C8A93 // addi x21, x25, -13
+0x256FC393 // xori x7, x31, 598
+0x015F8023 // sb x21, 0(x31)
+0x01FB7E93 // andi x29, x22, 31
+0x09ED4617 // auipc x12, 40660
+0x000FC803 // lbu x16, 0(x31)

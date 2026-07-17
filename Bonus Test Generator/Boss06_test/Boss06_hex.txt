@@ -1,0 +1,35 @@
+// RISC-V Instruction Memory Hex Dump
+// 31 instructions
+// x31 initialized to 128 for memory operations
+
+0x00000013 // addi x0, x0, 0
+0x08000F93 // addi x31, x0, 128
+0xCAD00E13 // addi x28, x0, -851
+0xB1200693 // addi x13, x0, -1262
+0x33800C93 // addi x25, x0, 824
+0x10600813 // addi x16, x0, 262
+0x6E300193 // addi x3, x0, 1763
+0x00D1FD33 // and x26, x3, x13
+0x57C0156F // jal x10, 5500
+0x41968CB3 // sub x25, x13, x25
+0x000FDE83 // lhu x29, 0(x31)
+0x000F9D83 // lh x27, 0(x31)
+0x00DFFCB3 // and x25, x31, x13
+0x000F8D03 // lb x26, 0(x31)
+0xE69D8B93 // addi x23, x27, -407
+0x00018CE7 // jalr x25, 0(x3)
+0x00000073 // ecall
+0x41A50C33 // sub x24, x10, x26
+0x03257617 // auipc x12, 12887
+0x01FC0763 // beq x24, x31, 14
+0xEDFBE313 // ori x6, x23, -289
+0x5EC1FA93 // andi x21, x3, 1516
+0x002B2A33 // slt x20, x22, x2
+0x0A89EFB7 // lui x31, 43166
+0x014F8023 // sb x20, 0(x31)
+0x000FCB03 // lbu x22, 0(x31)
+0x00366E33 // or x28, x12, x3
+0xA7D86F13 // ori x30, x16, -1411
+0x02D85263 // bge x16, x13, 36
+0x016F9DB3 // sll x27, x31, x22
+0x00000073 // ecall

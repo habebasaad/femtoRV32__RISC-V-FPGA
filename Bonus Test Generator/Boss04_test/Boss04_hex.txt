@@ -1,0 +1,21 @@
+// RISC-V Instruction Memory Hex Dump
+// 17 instructions
+// x31 initialized to 128 for memory operations
+
+0x00000013 // addi x0, x0, 0
+0x08000F93 // addi x31, x0, 128
+0x2CC00113 // addi x2, x0, 716
+0x85200A13 // addi x20, x0, -1966
+0x1E700D93 // addi x27, x0, 487
+0x01F12F33 // slt x30, x2, x31
+0x6EF33F6F // jal x30, 212718
+0x40242CEF // jal x25, 271362
+0x000F9403 // lh x8, 0(x31)
+0x008F8023 // sb x8, 0(x31)
+0x014CBEB3 // sltu x29, x25, x20
+0x01DCB3B3 // sltu x7, x25, x29
+0x175EC893 // xori x17, x29, 373
+0x01B89CB3 // sll x25, x17, x27
+0x006864B3 // or x9, x16, x6
+0xFBB40FE3 // beq x8, x27, -66
+0x019397B3 // sll x15, x7, x25

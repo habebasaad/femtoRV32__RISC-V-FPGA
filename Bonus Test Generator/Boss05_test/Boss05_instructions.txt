@@ -1,0 +1,19 @@
+==========================================
+    RISC-V INSTRUCTION DETAILS
+==========================================
+Total Instructions: 7
+Fixed Initialization: 2 instructions
+Additional Initialization: 1 instructions
+Main Instructions: 4 instructions
+Memory Base Address: 0 to 31 for instructions
+Data Memory Base: 128 (x31 initialized to 128)
+Initialized Registers: x31, x6, x25
+==========================================
+
+Instruction 0: addi x0, x0, 0 | Binary: 00000000000000000000000000010011
+Instruction 1: addi x31, x0, 128 | Binary: 00001000000000000000111110010011
+Instruction 2: addi x6, x0, -953 | Binary: 11000100011100000000001100010011
+Instruction 3: blt x6, x31, -32 | Binary: 11111111111100110100000011100011
+Instruction 4: beq x6, x31, 26 | Binary: 00000001111100110000110101100011
+Instruction 5: sw x6, 0(x31) | Binary: 00000000011011111010000000100011
+Instruction 6: lbu x25, 0(x31) | Binary: 00000000000011111100110010000011
